@@ -1,0 +1,6 @@
+# dsh-favorites bundle patch: inserts its host entry into the web profile.
+# The host half registers the `favorites` settings namespace; the client half
+# adds a header star toggle and a bottom-left favorites panel.
+- insert:
+    - id: favorites
+      name: dsh-favorites
