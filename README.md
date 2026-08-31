@@ -78,18 +78,18 @@ class FavoritesService extends Service {
 
 ## 安装
 
-作为 DSH web profile 插件，从 GitHub 安装。在 web profile 目录执行：
+已发布到 npm registry。作为 DSH web profile 插件直接安装，在 web profile 目录执行：
 
 ```bash
-dsh plugin --profile web add github:andyzhuang233/dsh-favorites
+dsh plugin --profile web add dsh-favorites
 ```
 
 安装后重启 `dsh web` 并刷新页面，即可在会话页头看到「收藏夹」按钮。
 
-> 发布到 npm registry 后，也可直接安装：
+> 也可以从源码仓库安装预发布 / 最新提交版本：
 
 ```bash
-dsh plugin --profile web add dsh-favorites
+dsh plugin --profile web add github:andyzhuang233/dsh-favorites
 ```
 
 ## 使用

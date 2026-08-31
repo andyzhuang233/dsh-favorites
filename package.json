@@ -1,6 +1,6 @@
 {
   "name": "dsh-favorites",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "DSH web plugin: a 收藏夹 (favorites) feature in the conversation header — star the current session, list every favorited session, and open one from an anchored panel. Persisted through the `favorites` settings namespace.",
   "type": "module",
   "main": "lib/index.js",
