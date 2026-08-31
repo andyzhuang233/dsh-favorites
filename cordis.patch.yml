@@ -1,0 +1,6 @@
+# dsh-favorites bundle patch：把宿主端 `favorites` 服务插入 web profile。
+# 宿主端注册 `favorites` 设置命名空间；客户端在会话页头提供一个收藏夹（收藏/取消收藏
+# 当前会话，并列出/打开所有已收藏会话）。浏览器端由 package.json 的 dsh.client 声明发现。
+- insert:
+    - id: favorites
+      name: dsh-favorites
