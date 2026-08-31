@@ -17,23 +17,19 @@ DSH (DeepSeek Harness) Web 插件：会话收藏夹功能。
 
 ## 安装
 
-作为 DSH web profile 插件安装。在 web profile 目录执行：
+作为 DSH web profile 插件，从 GitHub 安装。在 web profile 目录执行：
 
 ```bash
-dsh plugin --profile web add dsh-favorites
-```
-
-或从本地开发路径安装：
-
-```bash
-dsh plugin --profile web add file:./dsh-favorites
+dsh plugin --profile web add github:andyzhuang233/dsh-favorites
 ```
 
 安装后重启 `dsh web` 并刷新页面，即可在会话页头看到「收藏夹」按钮。
 
-> 若本机无法访问 npm registry，可离线安装：把本项目复制到
-> `$DSH_HOME/profiles/web/node_modules/dsh-favorites`，并在 profile 的
-> `package.json` 的 `dependencies` 与 `dsh.profile.bundles` 中加入 `dsh-favorites`。
+> 发布到 npm registry 后，也可直接安装：
+
+```bash
+dsh plugin --profile web add dsh-favorites
+```
 
 ## 依赖（peer）
 
